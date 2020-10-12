@@ -1,3 +1,21 @@
+<?php 
+
+if(isset($_GET['pesan'])){
+        if($_GET['pesan']=="admin"){
+        echo "<script> alert('Anda Bukan Admin di AyoKaroke!');
+
+        </script>";
+        } else if($_GET['pesan']=="gagal"){
+        echo "<script> alert('Username Atau Password Salah!');
+
+        </script>";
+        }else if($_GET['pesan']=="belumlogin"){
+        echo "<script> alert('Anda Belum Login!');
+
+        </script>";}
+    }
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,6 +32,10 @@
         <div class="header-left">
           <img class="logo" src="images/main_logo.png">
         </div>
+        <div class="header-right">
+          <a href="kandidat">Kandidat</a>
+
+          <div>
       </div>
     </header>
      <div class="top-wrapper">
@@ -64,15 +86,24 @@
       <div class="container">
         <div class="heading">
           <h2>Sukseskan Pemilihan Ketua Himpunan Mahasiswa Ilmu Komputer - Univesitas Pakuan!</h2>
-          <h3>Untuk Ilmu Komputer yang lebih baik</h3>
+          <h3>Untuk Ilmu Komputer yang lebih baik</h3><br>
+          
+          
+          <form action="login.php" method="post">
+          <p>Nomer Induk Mahasiswa</p>
+            <input name="npm" type="npm"  required="">
+            <p>Password</p>
+            <input name="password" type="password" required="" >
+            <br><br><br>
+            <button class="btn signup" name="login">Login</form>
+     
         </div>
-        <a href="#" class="btn signup">Login</a>
-      </div>
+    </div>   
     </div>
     <footer>
       <div class="container">
         <img src="#">
-        <p>Learn to code, learn to be creative.</p>
+        <p>Himakom X Labkom</p>
       </div>
     </footer>
   </body>

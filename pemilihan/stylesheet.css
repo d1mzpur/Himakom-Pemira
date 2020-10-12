@@ -24,7 +24,7 @@
   
   .top-wrapper {
     padding: 100px 0 100px 0;
-    background-image: url(images/atas.png);
+    background-image: url(../images/atas.png);
     background-size: cover;
     color: white;
     text-align: center;
@@ -136,7 +136,7 @@
   
   .lesson {
     float: left;
-    width: 25%;
+    width: 50%;
   }
   
   .lesson-icon {
@@ -155,24 +155,6 @@
     font-weight: normal;
   }
   
-  .message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
-  }
-  
-  .message {
-    padding: 15px 40px;
-    background-color: #5dca88;
-    cursor: pointer;
-    box-shadow: 0 7px #1a7940;
-  }
-  
-  .message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-  }
   
   footer img {
     width: 125px;
