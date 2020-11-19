@@ -4,8 +4,26 @@ require '../koneksi.php';
 
 session_start();
 
+if (!isset($_SESSION['npm'])){
+        echo "<script> alert('Anda Belum Login');
+    document.location.href='../'</script>";
+}
+
+
+if (isset($_SESSION['level'])){
+    if ($_SESSION['level'] == "kpu"){
+        echo "<script>document.location.href='/admin'</script>";
+}
+    
+}
+
 
 $npm = $_SESSION['npm'];
+$nama = $_SESSION['name'];
+$pecah = explode(" ",$nama);
+
+
+
 
 $checkpemilih = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM pemilihan WHERE npm ='".$npm."'"));
 if($checkpemilih > 0){ 
@@ -19,6 +37,7 @@ if($checkpemilih > 0){
     
   $data = mysqli_query ($koneksi,"SELECT * FROM himakom");
     
+
 
 ?>
 
@@ -39,8 +58,8 @@ if($checkpemilih > 0){
           <img class="logo" src="../images/main_logo.png">
         </div>
         <div class="header-right">
-          <a href="logout.php"><?php echo "Logout ", $_SESSION['name'];?></a>
-
+        <a href="/kandidat"><?php echo "Kandidat"?></a>
+          <a href="logout.php"><?php echo "Logout ", $pecah[0];?></a>
           <div>
       </div>
     </header>
@@ -57,7 +76,7 @@ if($checkpemilih > 0){
     <div class="lesson-wrapper">
       <div class="container">
         <div class="heading">
-          <h2>Status Pilihan : <?php echo $_SESSION['checkpemilih'];?></h2>
+          <h2>Status Pilihan:<br> <?php echo $_SESSION['checkpemilih'];?></h2>
         </div>
         
         
@@ -78,8 +97,8 @@ if($checkpemilih > 0){
     </div>
     <footer>
       <div class="container">
-        <img src="#">
-        <p>Learn to code, learn to be creative.</p>
+
+        <img src="http://himakom.crudim.my.id/images/image.png">
       </div>
     </footer>
   </body>

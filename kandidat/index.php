@@ -1,10 +1,16 @@
 <?php 
 
 require '../koneksi.php';
+    
+    $query=mysqli_query($koneksi,"SELECT sum(total_suara) as total FROM himakom ");
+	$total=mysqli_fetch_array($query);
+    $total_suara=$total['total'];
+  
+    $data = mysqli_query ($koneksi,"SELECT * FROM himakom");
 
   
-  $data = mysqli_query ($koneksi,"SELECT * FROM himakom");
 ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -44,7 +50,10 @@ require '../koneksi.php';
         </div>
      <div class="lessons">
              <?php 
-        while ($row = mysqli_fetch_assoc($data)): ?>
+        while ($row = mysqli_fetch_assoc($data)):  
+        ?>
+        
+        
           <div class="lesson">
             <div class="lesson-icon">
               <img src="<?php echo $row['photo'];?>" height="200" width="200">
@@ -53,6 +62,12 @@ require '../koneksi.php';
             <p class="text-contents"><?php echo $row['visi'];?></p>
             <h3>Misi</h3>
             <p class="text-contents"><?php echo $row['misi'];?></p>
+            <h3>RealTime Penghitungan</h3>
+            <? $jumlah_suara=$row['total_suara'];
+  $persen=round(((int)$jumlah_suara/(int)$total_suara)*100,2);
+  $lebar=$persen*2; ?>
+              <img src="../images/stat.jpg" border="1" width="<? echo $lebar; ?>" height="20" /><br>
+              <? echo $jumlah_suara." SUARA - ";?><? echo $persen." %";?>
             </div>
           </div> 
          <?php endwhile; ?>  
@@ -62,8 +77,10 @@ require '../koneksi.php';
     </div>
     <footer>
       <div class="container">
-        <img src="#">
-        <p>Learn to code, learn to be creative.</p>
+
+        <img src="http://himakom.crudim.my.id/images/image.png">
+        
+        <p>Akun Bermasalah Kontak : <b>0821-2236-6675/ 0895-3553-28028 / 0812-1033-1200</b></p>
       </div>
     </footer>
   </body>

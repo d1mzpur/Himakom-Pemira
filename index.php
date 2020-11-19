@@ -1,18 +1,19 @@
 <?php 
 
-if(isset($_GET['pesan'])){
-        if($_GET['pesan']=="admin"){
-        echo "<script> alert('Anda Bukan Admin di AyoKaroke!');
+session_start();
 
-        </script>";
-        } else if($_GET['pesan']=="gagal"){
+if (isset($_SESSION['npm'])){
+        echo "<script> alert('Anda Belum Logout');
+    document.location.href='/pemilihan'</script>";
+}
+
+
+if(isset($_GET['pesan'])){
+        if($_GET['pesan']=="gagal"){
         echo "<script> alert('Username Atau Password Salah!');
 
         </script>";
-        }else if($_GET['pesan']=="belumlogin"){
-        echo "<script> alert('Anda Belum Login!');
-
-        </script>";}
+        }
     }
 ?>
 
@@ -76,12 +77,18 @@ if(isset($_GET['pesan'])){
             <div class="lesson-icon">
               <img src="images/4.png"  height="150" width="150">
             </div>
-            <p class="text-contents">Untuk memilih kandidat dengan menekan Foto Calon Ketua Himpunan, Selesai</p>
+            <p class="text-contents">Untuk memilih kandidat dengan menekan Foto Calon Ketua Himpunan, Selesai</p><br><br><br>
           </div>
+          <div class="heading">
+              
+          <h2>Apakah Nomer Induk Mahasiswa Terdaftar ?</h2>
+        </div>
           <div class="clear"></div>
+                  <p>Akun Bermasalah Kontak : <br><b>0821-2236-6675 atau 0895-3553-28028<br>0812-1033-1200</b></p>
         </div>
       </div>
     </div>
+    
     <div class="message-wrapper">
       <div class="container">
         <div class="heading">
@@ -102,8 +109,8 @@ if(isset($_GET['pesan'])){
     </div>
     <footer>
       <div class="container">
-        <img src="#">
-        <p>Himakom X Labkom</p>
+        <img src="http://himakom.crudim.my.id/images/image.png">
+        <p>Akun Bermasalah Kontak : <b>0821-2236-6675/ 0895-3553-28028 / 0812-1033-1200</b></p>
       </div>
     </footer>
   </body>
