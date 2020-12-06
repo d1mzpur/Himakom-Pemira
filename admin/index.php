@@ -7,6 +7,8 @@ session_start();
 if (isset($_SESSION['level'])){
     if ($_SESSION['level'] == "mahasiswa"){
         echo "<script>document.location.href='/pemilihan'</script>";
+}elseif ($_SESSION['level'] == ""){
+        echo "<script>document.location.href='/pemilihan'</script>";
 }}
 
 
@@ -61,7 +63,7 @@ float:left;
       <div class="container">
         <img src='../images/himakom.png' width='200' height='200' />
         <h1>PEMILIHAN UMUM</h1>
-        <h1>KETUA HIMPUNAN MAHASISWA ILMU KOMPUTER 2020-2021</h1>
+        <h1>KETUA HIMPUNAN MAHASISWA ILMU KOMPUTER 2021</h1>
         <div class="btn-wrapper">
  
         </div>
@@ -129,16 +131,29 @@ float:left;
     <div class="message-wrapper">
       <div class="container">
         <center><h2>Data Pemilihan</h2></center><br>
-           <table id="myScrollTable2" border="0" cellpadding="10" cellspacing="1" align="center">
+      	<?php 
+	if(isset($_GET['berhasil'])){
+		echo "<p>".$_GET['berhasil']." Data berhasil di import.</p>";
+	}
+	?>
+ <center>
+<form method="post" enctype="multipart/form-data" action="error3.php">
+	Pilih File: 
+	<input name="filepegawai" type="file" required="required"> 
+	<input name="upload" type="submit" value="Import">
+</form></center>
+<br>
+        
+           <table id="myScrollTable2" border="0" cellpadding="20" cellspacing="1" align="center">
         <tbody>
             <tr bgcolor="#4B0082">
             <th><font color="#FFFFFF">Nomer</font></th>
             <th><font color="#FFFFFF">Nomer Induk Mahasiswa</font></th>
             <th><font color="#FFFFFF">Nama</font></th>            
-            <th><font color="#FFFFFF">Password</font></th>
-            <th><font color="#FFFFFF">Status Pemilihan</font></th>
+            <th><font color="#FFFFFF">Status Pemilihan</font></th     >       
+            <th><font color="#FFFFFF">Tindakan</font></th>
         </tr>
-         <?php $data3 = mysqli_query ($koneksi,"SELECT * FROM tb_mahasiswa");?>
+         <?php $data3 = mysqli_query ($koneksi,"SELECT * FROM tb_mahasiswa ORDER BY `tb_mahasiswa`.`npm` ASC");?>
             <?php $i = 1; ?>
              <?php while ($row = mysqli_fetch_assoc($data3)):
              
@@ -147,9 +162,7 @@ float:left;
             <td><?php echo $i; ?></td>
             <td><?php echo $row["npm"] ?></td>
             <td><?php echo $row["name"] ?></td>
-            <td><?php echo $row["password"] ?></td>
-            
-            <? $checkpemilih = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM pemilihan WHERE npm ='".$npmmaha."'"));
+              <? $checkpemilih = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM pemilihan WHERE npm ='".$npmmaha."'"));
     if($checkpemilih > 0){ 
     
     $ambilcalon = mysqli_fetch_array(mysqli_query($koneksi,"SELECT * FROM pemilihan INNER JOIN himakom ON pemilihan.idcalon = himakom.idcalon WHERE pemilihan.npm ='".$npmmaha."'"));
@@ -159,6 +172,9 @@ float:left;
     $_SESSION['checkpemilih'] = "Belum Memilih";}?>
     
     <td><?php echo $_SESSION['checkpemilih'];?></td>
+     <td><a href="edit.php?npm=<?php echo $row["npm"]?>&pass=<?php echo $row["npm"]?>">Edit Password<a> || <a href="hapus.php?npm=<?php echo $row["npm"]?>" onClick="return confirm('Anda Yakin, Menghapus Akun <?php echo $row["name"];?>')">Hapus Akun<a></td>
+            
+         
     
         </tr>
         <?php $i++; ?>

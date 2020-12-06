@@ -1,6 +1,6 @@
 <?php
 
-$koneksi = new mysqli("localhost","crub1347_dimdim","dimas135","crub1347_kelompok9");
+$koneksi = new mysqli("localhost","crub1347_dimdim","dimas135","crub1347_datamahasiswa");
 
 if($koneksi){
 }else{

@@ -43,7 +43,7 @@ if(isset($_GET['pesan'])){
       <div class="container">
         <img src='images/himakom.png' width='200' height='200' />
         <h1>PEMILIHAN UMUM</h1>
-        <h1>KETUA HIMPUNAN MAHASISWA ILMU KOMPUTER 2020-2021</h1>
+        <h1>KETUA HIMPUNAN MAHASISWA ILMU KOMPUTER 2021</h1>
         <div class="btn-wrapper">
  
         </div>
@@ -81,10 +81,33 @@ if(isset($_GET['pesan'])){
           </div>
           <div class="heading">
               
-          <h2>Apakah Nomer Induk Mahasiswa Terdaftar ?</h2>
-        </div>
+          <h2>Aku Punya Akun ?</h2>
+          <?php 
+include 'koneksi.php';
+
+if(isset($_GET['cari'])){
+	$cari = $_GET['cari'];
+}
+?>
+
+	<?php 
+	if(isset($_GET['cari'])){
+		$cari = $_GET['cari'];
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_mahasiswa WHERE npm =".$cari."");				
+	}
+	while($d = mysqli_fetch_array($data)){
+	?>
+                  <h3>Akun Anda Terdaftar <b><?php echo $d['name']; ?></b> dalam Pemilihan Ketua Himakom</h3>
+	<?php }
+	?>
+          <form action="index.php" method="get">
+	<input type="text" name="cari" placeholder="Masukan NPM">
+	<input type="submit" value="Cari">
+</form>
+
           <div class="clear"></div>
-                  <p>Akun Bermasalah Kontak : <br><b>0821-2236-6675 atau 0895-3553-28028<br>0812-1033-1200</b></p>
+</div>
+                  <p>Tidak Memiliki Akun : <a href="http://bit.ly/registrasipemiluhimakom">Yuk Daftar Dulu</a><br><b>0888-8090-595<br><b>0895-3553-28028 atau 0812-1033-1200</b></p>
         </div>
       </div>
     </div>
@@ -110,7 +133,7 @@ if(isset($_GET['pesan'])){
     <footer>
       <div class="container">
         <img src="http://himakom.crudim.my.id/images/image.png">
-        <p>Akun Bermasalah Kontak : <b>0821-2236-6675/ 0895-3553-28028 / 0812-1033-1200</b></p>
+        <p>Akun Bermasalah Kontak : <b>0895-3553-28028 / 0812-1033-1200</b></p>
       </div>
     </footer>
   </body>

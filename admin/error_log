@@ -1,0 +1,147 @@
+[13-Oct-2020 14:46:23 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:25 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:29 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:29 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:39 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:51 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:57 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:58 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:46:58 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:47:10 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:47:49 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:47:50 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:47:54 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:47:54 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:47:56 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:48:44 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 14:49:16 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/crub1347/public_html/himakom/admin/index.php on line 7
+[13-Oct-2020 15:37:44 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/himakom/admin/index.php on line 119
+[13-Oct-2020 15:37:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/himakom/admin/index.php on line 119
+[13-Oct-2020 19:20:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/himakom/admin/index.php on line 152
+[13-Oct-2020 19:36:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/crub1347/public_html/himakom/admin/index.php:133
+Stack trace:
+#0 {main}
+  thrown in /home/crub1347/public_html/himakom/admin/index.php on line 133
+[13-Oct-2020 19:38:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/crub1347/public_html/himakom/admin/index.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/crub1347/public_html/himakom/admin/index.php on line 134
+[13-Oct-2020 19:38:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/crub1347/public_html/himakom/admin/index.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/crub1347/public_html/himakom/admin/index.php on line 134
+[13-Oct-2020 19:38:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/crub1347/public_html/himakom/admin/index.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/crub1347/public_html/himakom/admin/index.php on line 134
+[13-Oct-2020 19:40:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/crub1347/public_html/himakom/admin/index.php:135
+Stack trace:
+#0 {main}
+  thrown in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[13-Oct-2020 19:42:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/crub1347/public_html/himakom/admin/index.php:135
+Stack trace:
+#0 {main}
+  thrown in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[20-Oct-2020 20:42:42 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 94
+[20-Oct-2020 20:42:42 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 94
+[20-Oct-2020 20:51:42 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 94
+[20-Oct-2020 20:51:42 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 94
+[16-Nov-2020 22:15:39 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:41 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:43 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:46 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:46 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:15:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:16:01 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 179
+[16-Nov-2020 22:24:46 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 178
+[16-Nov-2020 22:24:47 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 178
+[16-Nov-2020 22:25:04 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/crub1347/public_html/kelompok9/admin/index.php on line 178
+[06-Dec-2020 10:23:44 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:23:44 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:23:44 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'koneksi.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:24:20 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:24:20 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:24:20 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'koneksi.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:25:29 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:25:29 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:25:29 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'koneksi.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:26:24 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:26:24 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:26:24 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'koneksi.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:26:49 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:26:49 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:26:49 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'koneksi.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:27:08 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:27:08 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:27:08 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'koneksi.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:27:10 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:27:10 Asia/Jakarta] PHP Warning:  require(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 10:27:10 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'koneksi.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/hapus.php on line 3
+[06-Dec-2020 12:55:27 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:55:27 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:55:27 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:56:47 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:56:47 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:56:47 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:56:48 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:56:48 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:56:48 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:57:02 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:57:02 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 12:57:02 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 13:02:31 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 3
+[06-Dec-2020 13:02:31 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 3
+[06-Dec-2020 13:02:31 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/error3.php on line 3
+[06-Dec-2020 13:02:31 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 13:02:31 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 13:03:45 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 13:03:45 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 13:03:45 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/index.php on line 135
+[06-Dec-2020 13:03:54 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 3
+[06-Dec-2020 13:03:54 Asia/Jakarta] PHP Warning:  include(koneksi.php): failed to open stream: No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 3
+[06-Dec-2020 13:03:54 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/crub1347/public_html/himakom/admin/error3.php on line 3
+[06-Dec-2020 13:03:54 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 13:03:54 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 13:05:45 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 13:05:45 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 13:07:09 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 13:07:09 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 13:08:55 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 13:08:55 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 13:08:55 Asia/Jakarta] PHP Warning:  chmod(): No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 12
+[06-Dec-2020 13:08:55 Asia/Jakarta] PHP Warning:  unlink(): No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 36
+[06-Dec-2020 13:08:55 Asia/Jakarta] PHP Warning:  chmod(): No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 12
+[06-Dec-2020 13:08:55 Asia/Jakarta] PHP Warning:  unlink(): No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 36
+[06-Dec-2020 13:12:34 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 13:12:34 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 13:18:03 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 13:18:03 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 15:54:30 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 15:54:30 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 15:54:45 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 15:54:45 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 15:57:27 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 15:57:27 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 15:57:27 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 15:57:27 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 15:57:27 Asia/Jakarta] PHP Warning:  unlink(siswa.xls): No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 36
+[06-Dec-2020 15:57:27 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 15:57:27 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 16:37:10 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 16:37:10 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 16:42:17 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 16:42:17 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 16:42:17 Asia/Jakarta] PHP Warning:  chmod(): No such file or directory in /home/crub1347/public_html/himakom/admin/error3.php on line 12
+[06-Dec-2020 16:43:20 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 16:43:20 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 22:32:41 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 22:32:41 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 22:33:04 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 95
+[06-Dec-2020 22:33:04 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/crub1347/public_html/himakom/admin/excel_reader2.php on line 312
+[06-Dec-2020 22:33:04 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 22:33:04 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 22:34:58 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96
+[06-Dec-2020 22:34:58 Asia/Jakarta] PHP Warning:  Division by zero in /home/crub1347/public_html/himakom/admin/index.php on line 96

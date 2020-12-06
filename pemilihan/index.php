@@ -67,7 +67,7 @@ if($checkpemilih > 0){
       <div class="container">
         <img src='../images/himakom.png' width='200' height='200' />
         <h1>PEMILIHAN UMUM</h1>
-        <h1>KETUA HIMPUNAN MAHASISWA ILMU KOMPUTER 2020-2021</h1>
+        <h1>KETUA HIMPUNAN MAHASISWA ILMU KOMPUTER 2021</h1>
         <div class="btn-wrapper">
  
         </div>
