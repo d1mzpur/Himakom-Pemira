@@ -4,6 +4,13 @@ require '../koneksi.php';
 
 session_start();
 
+
+if (!isset($_SESSION['npm'])){
+        echo "<script> alert('Anda Belum Login');
+    document.location.href='../'</script>";
+}
+
+
 if (isset($_SESSION['level'])){
     if ($_SESSION['level'] == "mahasiswa"){
         echo "<script>document.location.href='/pemilihan'</script>";
